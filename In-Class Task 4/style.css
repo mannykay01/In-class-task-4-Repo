@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.first h1{
+    color: rgb(144, 107, 255);
+}
+
+.first{
+    background-color: rgb(219,231,162);
+    height: 60px;
+}
+.firstdiv{
+    background-color: rgb(242,232,248);
+}
+
+
+nav li  {
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    background: cornsilk;
+    color:indigo;
+    border: 2px solid indigo;
+    padding: 5px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav{
+    padding: 50px;
+}
+
+
+nav a:hover{
+    background-color: indigo; 
+    border: 2px solid cornsilk;
+    color: cornsilk;
+}
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+}
+.box1{
+    background-color: rgb(179,162,231);
+    width: 70%;
+}
+
+.box2{
+    width: 29%;
+    background-color: rgb(162,206,231);
+}
+.box2 ul{
+    padding: 40px;
+}
+
+h2{
+    color: rgb(255,204,0);
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+form{
+    padding: 5px;
+    margin-top: 50px;
+    border: 5px   indigo  dashed;
+}
+
+.inp{
+width: 50%;
+display: block;
+height: 2em;
+}
+
+.radio{
+    height: 2em;
+    width: 2em;
+    font-weight: bolder;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+fieldset{
+    border: none;
+    padding: 10px;
+}
+
+textarea{
+    width: 50%;
+    display: block;
+}
+
+.checkbox{
+    height: 2em;
+    width: 2em;
+}
+
+footer{
+    background: rgb(162,231,168);
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen  and (max-width:768px){
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+
+    }
+    .main{
+        display: inline;
+    }
+}
